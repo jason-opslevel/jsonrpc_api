@@ -1,0 +1,20 @@
+---
+version: 1
+service:
+  name: jsonrpc_api
+  lifecycle:
+  tier: tier_2
+  product: Website
+  owner:
+  language: Node.js
+  framework:
+  description:
+  aliases:
+  tags:
+  - key: db
+    value: redis
+  - key: env
+    value: prod
+  repositories:
+  tools:
+  dependencies:
