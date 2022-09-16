@@ -1,9 +1,9 @@
 ---
 version: 1
 service:
-  name: JSONRPC API
+  name: JSONRPC APIz
   lifecycle:
-  tier: tier_1
+  tier: tier_2
   product: Website
   owner:
   language: Node.js
@@ -12,7 +12,7 @@ service:
   aliases:
   tags:
   - key: db
-    value: mysql
+    value: redis
   - key: env
     value: prod
   repositories:
